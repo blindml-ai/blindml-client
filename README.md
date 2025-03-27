@@ -13,6 +13,13 @@ It enables users to perform secure, encrypted predictions without ever exposing 
 - Decrypt the server's encrypted prediction result into readable output
 - Supports integration with [Concrete-ML](https://docs.zama.ai/concrete-ml/)
 
+## 🖥️ Supported Environments
+
+| OS        | Support |
+|-----------|---------|
+| Windows   | ❌ Not supported |
+| macOS     | ❌ Not supported |
+| Linux     | ✅ Fully supported |
 
 
 ## 📦Installation
