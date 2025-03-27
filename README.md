@@ -1,4 +1,4 @@
-BlindMLClient
+# BlindMLClient
 
 **BlindMLClient** is a Python client library designed to interact with the [BlindMLServer](https://github.com/blindml-ai/blindml-server), which hosts models powered by Fully Homomorphic Encryption (FHE).   
 It enables users to perform secure, encrypted predictions without ever exposing raw input data — ensuring full privacy throughout the inference pipeline.
