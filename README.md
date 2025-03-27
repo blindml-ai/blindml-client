@@ -17,6 +17,31 @@ It enables users to perform secure, encrypted predictions without ever exposing 
 
 ## 📦Installation
 
+This project uses [Zama's Concrete-ML](https://github.com/zama-ai/concrete-ml) library.  
+For the best compatibility and performance, it is **highly recommended to run it within a Conda environment**.
+
+### Prerequisites
+
+Please make sure you have [Miniconda](https://docs.conda.io/en/latest/miniconda.html) or [Anaconda](https://www.anaconda.com/) installed.
+
+### Create Conda Environment and Install Packages
+
+Run the following commands in your terminal to set up the environment:
+
+```bash
+# 1. Create a Conda environment named 'concrete-env' with Python 3.8
+conda create -n blindml-env python=3.8 -y
+
+# 2. Activate the environment
+conda activate blindml-env
+
+# 3. (Optional) Upgrade pip
+python -m pip install --upgrade pip
+
+# 4. Install concrete-ml version 1.4.0
+pip install concrete-ml==1.4.0
+```
+Then install blindml
 ```bash
 pip install blindml
 ```
